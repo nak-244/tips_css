@@ -47,4 +47,27 @@ vhっていう単位、かなり便利なんですがたぶん使ってる人少
     background-size:cover;
     }
 
-    
+
+    `body:before{`
+
+    `content``:``""``;`
+
+    `display``:``block``;`
+
+    `position``:``fixed``;`
+
+    `top``:``0``;`
+
+    `left``:``0``;`
+
+    `z-index``:``-1``;`
+
+    `width``:``100%``;`
+
+    `height``:``100``vh;`
+
+    `background``:``url``([https://y-com.info/contents/wp-content/uploads/](https://y-com.info/contents/wp-content/uploads/)``2017``/``05``/IMG_``1894``.jpg)` `center` `no-repeat``;`
+
+    `background-``size``:cover;`
+
+    `}`
