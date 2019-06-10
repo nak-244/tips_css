@@ -32,3 +32,19 @@ background-attachment:fixed;を使わずにどうやって背景を固定する�
 widthはもちろん100%で、高さについては表示領域全体の高さということでvhという単位を使って100vhを指定。  
 
 vhっていう単位、かなり便利なんですがたぶん使ってる人少ないよね。
+
+
+    body:before{
+    content:"";
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    width:100%;
+    height:100vh;
+    background:url(https://y-com.info/contents/wp-content/uploads/2017/05/IMG_1894.jpg) center no-repeat;
+    background-size:cover;
+    }
+
+    
